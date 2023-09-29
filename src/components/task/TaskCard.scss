@@ -1,0 +1,105 @@
+.taskCard{
+    min-width: 250px;
+    background: #000;
+    margin-top: 15px;
+    border-radius: 10px;
+    .drag{
+        background: #211A75;
+        border-radius: 10px;
+        width: 100%;
+        min-width: 250px;
+        padding: 15px;
+        cursor:grab;
+
+        .m1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .m11{
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+
+            .dot{
+               position: relative;
+           
+               
+               
+              
+                border-radius: 50%;
+                margin-right: 10px;
+               
+            }
+            .imp{
+
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+        }
+        .create{
+            font-size: 18px;
+            font-weight: 500;
+            color: white;
+            line-height: 30px;
+        }
+
+        .progress{
+            width: 100%;
+            background: #1E1C3A;
+            height: 8px;
+            border-radius: 10px;
+            margin-top: 14px;
+            position: relative;
+
+        }
+
+        .circleP{
+            position: relative;
+           margin-right: -10px;
+        }
+        .arr{
+            margin-top: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .arr1{
+                display: flex;
+                align-items: center;
+                margin-bottom: 7px;
+
+                .circles{
+                    margin-right: 4px;
+                }
+
+                .arr2{
+                    color: #A5A5A5;
+                    font-size: 14px;
+                }
+            }
+
+
+
+        }
+        .move{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            background: #15132B;
+            border: 1px dashed #7879F1;
+            padding: 15px;
+            border-radius: 15px;
+
+            .here{
+                text-align: center;
+                color: #7879F1;
+                font-size: 16px;
+            }
+        }
+
+
+    }
+
+}

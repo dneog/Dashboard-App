@@ -1,0 +1,100 @@
+.mainCards{
+    margin: 15px;
+    display: flex;
+    max-width: 1600px;
+    justify-content: space-between;
+}
+
+.card1{
+    width: 25%;
+   min-width: 250px;
+   margin: 0px 3px;
+   padding: 5px;
+    .todo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:  5px 15px;
+       
+
+        .t1{
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
+        .t2{
+          position: relative;
+          top: 2.5px;
+        }
+        .add1{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            padding: 14px;
+            outline: none;
+            border: 0;
+            border-radius: 10px;
+            background: #6418c3;
+        }
+        
+        .add1p{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            padding: 14px;
+            outline: none;
+            border: 0;
+            border-radius: 10px;
+            background: #211A75;
+           
+        }
+        .pluss{
+            opacity: 0.5;
+        }
+     
+        .plus{
+            font-weight: bold;
+            font-size: 18px;
+           
+        }
+    }
+
+    .todoList{
+        height: 55.2vh;
+        overflow-y: scroll;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .mainCards{
+        margin: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+    .card1{
+        width: 40%;
+       min-width: 270px;
+       margin: 0px 3px;
+       padding: 5px;
+    }
+}
+}
+
+@media screen and (max-width: 600px) {
+    .mainCards{
+        width: 80%;
+        margin: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+    .card1{
+        width: 90%;
+      
+       margin: 0px 3px;
+       padding: 5px;
+    }
+}
+}
